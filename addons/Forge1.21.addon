@@ -1,0 +1,19 @@
+:main
+a_name Luna Forge 1.21
+a_version 1
+a_author luna
+a_add_type c_forge
+a_add_version c_forge forge https://maven.minecraftforge.net/net/minecraftforge/forge/1.21-51.0.23/forge-1.21-51.0.23-installer.jar 21
+
+:button Forge 1.21
+text Instalar Forge 1.21
+remove_server
+download_version y c_forge forge
+exec java -jar forge.jar --installServer
+config server_type forge
+exec echo "eula=true" >> eula.txt
+config server_version 1.21
+config_save
+
+say Forge instalado!
+sleep 3
