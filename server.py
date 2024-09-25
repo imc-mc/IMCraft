@@ -59,11 +59,5 @@ def download_latest_release(download_path='.'):
 flnm=download_latest_release()
 if flnm.split(".")[-1] == "msp":
 	os.system(f"chmod +x {flnm} && ./{flnm}")
-else:
-else:
-./{flnm}")
-else:
-else:
-&& ./{flnm}")
-else:
-else:
+
+
